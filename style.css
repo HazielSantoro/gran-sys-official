@@ -1,0 +1,104 @@
+.fundo-vermelho,
+.fundo-azul{
+    height: 200px;
+}
+
+.fundo-vermelho{
+    background-color: red;
+}
+
+.fundo-azul{
+    background-color: royalblue;
+}
+#rectangulo{
+    width:100%;
+    height:100px;
+    background:#212529;
+}
+
+#btnoptions{
+    width:100%;
+    height:100px;
+    text-align: center;
+}
+
+#btncategorias{
+    width: 320px;
+    height: 60px;
+    font-weight: 100%;
+    font-family: initial;
+    font-size: 34px;
+    font-style: initial;
+    text-align:center;
+}
+.v-btn:before {
+    border-radius: inherit;
+    bottom: 0;
+    color: inherit;
+    content: "";
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .2s cubic-bezier(.4,0,.6,1);
+    background-color: currentColor;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: #212529;
+    color: #212529;
+    border-radius: 51%;
+    padding: 10px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+    color: rgb(0, 0, 0);
+    width:100%;
+    height:100px;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.content{
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+ }
+
+ #myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #212529;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#wahishop.rectangulo{
+    align-items: center;
+}
